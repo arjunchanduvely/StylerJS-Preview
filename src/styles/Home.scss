@@ -1,0 +1,206 @@
+.home_page_container{
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #e9eaee;
+  padding:50px;
+  box-sizing: border-box;
+
+  .single_need_container{
+    // display: none;
+    position: relative;
+    overflow: hidden;
+    width:100%;
+    height:auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    // border: 1px solid #c6c0c0;
+    border-radius: 20px;
+    background-color: #ffffff;
+
+    .image_container{
+      position: relative;
+      // overflow: hidden;
+      width: 100%;
+      height:275px;
+      border-radius: 20px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      // background-color: blue;
+
+      .user_views_container{
+        position: absolute;
+        overflow: hidden;
+        right:10px;
+        top:10px;
+        height: auto;
+        width: auto;
+        border-radius: 20px;
+        box-sizing: border-box;
+        
+        .grid_container{
+          display: grid;
+          grid-template-columns: max-content auto;
+          height: 100%;
+          align-items: center;
+          background-color: white;
+
+          .graph{
+            height: auto;
+            color: #558dff;
+            padding: 5px 3px 5px 10px;
+            box-sizing: border-box;
+          }
+  
+          .total_views{
+            height: auto;
+            // background-color: yellow;
+            padding: 5px 10px 5px 5px;
+            box-sizing: border-box;
+            color: #827d7d;
+
+
+          }
+        }
+
+      }
+
+      .like_button_container{
+        position: absolute;
+        right:15px;
+        bottom: 0px;
+        // width:50px;
+        // height:50px;
+        padding: 10px;
+        background-color: white;
+        color: red;
+        transform: translate(0%,50%);
+        border-radius: 40px;
+        font-size: 25px;
+        box-shadow: 0px 0px 2px black;
+      }
+    }
+
+    .title_container{
+      overflow: hidden;
+      width:100%;
+      height:auto;
+      margin-top: 20px;
+      // padding: 5px;   
+      box-sizing: border-box;
+      font-weight: 510; 
+      font-size: 22px;  
+
+    }
+
+    .details_container{
+      width:100%;
+      height: auto;
+      margin-top: 4px;
+      // padding: 2px;   
+      box-sizing: border-box;
+      // font-weight: 510;
+      // background-color: #f8f8f8;
+
+    }
+
+    // .title_container{
+    //   width:100%;
+    //   height:auto;
+    //   margin-top: 20px;
+    //   padding: 5px;   
+    //   box-sizing: border-box;
+    //   font-weight: 510; 
+    //   font-size: 22px;  
+
+    // }
+
+    .date_location{
+      width:100%;
+      height:auto;
+      margin-top: 15px;
+      // padding: 5px;   
+      box-sizing: border-box;
+      // font-weight: 510; 
+      font-size: 15px;  
+
+    }
+
+
+    // .chat_icon{
+    //   position:absolute;
+    //   right:10px;
+    //   bottom: 10px;
+    //   width:40px;
+    //   height: 40px;
+    //   background-position: center;
+    //   background-size: cover;
+    //   background-repeat: no-repeat;
+    //   cursor: pointer;
+    //   // background-color: green;
+    // }
+    .chat_container{
+      position: relative;
+      display: inline-block;
+      width: auto;
+      height: auto;
+      // background-image: linear-gradient(to bottom right, #6a95ee, #83a4ec);
+      // background-image: linear-gradient(to bottom right, #0053ff, #83a4ec);
+      background-image: linear-gradient(to bottom right, #83a4ec,#0053ff);
+      margin-top: 15px;
+      border-radius: 25px;
+      padding: 10px 20px;
+      cursor: pointer;
+
+
+      .chat_grid{
+        display: grid;
+        grid-template-columns: max-content auto;
+        height: auto;
+        align-items: center;
+        color: white;
+  
+        .icon{
+          height: auto;
+          // color: #558dff;
+          padding: 5px 3px 5px;
+          box-sizing: border-box;
+        }
+
+        .text{
+          height: auto;
+          // background-color: yellow;
+          padding-left: 5px;
+          box-sizing: border-box;
+          // color: #827d7d;
+    
+    
+        }
+      }
+    }
+
+
+
+  }
+  .plus_button{
+    position:fixed;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    right: 15px;
+    bottom: 15px;
+    width: 50px;
+    height: 50px;
+    // padding: 18px;
+    box-sizing: border-box;
+    background-color: orange;
+    color:white;
+    border-radius: 15px;
+    font-size: 35px;
+    cursor: pointer;
+
+  }
+
+}

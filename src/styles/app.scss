@@ -1,0 +1,142 @@
+body{
+  margin : 0px;
+  font-family: WorkSans;
+}
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('/fonts/Work_Sans/WorkSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}  
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('/fonts/Work_Sans/WorkSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}  
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('/fonts/Work_Sans/WorkSans-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}  
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('/fonts/Work_Sans/WorkSans-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}  
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('/fonts/Work_Sans/WorkSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}  
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('/fonts/Work_Sans/WorkSans-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}  
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('/fonts/Work_Sans/WorkSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}  
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('/fonts/Work_Sans/WorkSans-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}  
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('/fonts/Work_Sans/WorkSans-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}  
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('/fonts/Work_Sans/WorkSans-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}  
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('/fonts/Work_Sans/WorkSans-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}  
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('/fonts/Work_Sans/WorkSans-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}  
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('/fonts/Work_Sans/WorkSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}  
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('/fonts/Work_Sans/WorkSans-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}  
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('/fonts/Work_Sans/WorkSans-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}  
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('/fonts/Work_Sans/WorkSans-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+} 
+
+.grid_layout{
+  position: relative;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 230px auto;
+  background-color: #f0f0f0;
+
+  .sidebar_container{
+    width:100%;
+    height: 100%;
+    background-color: white;
+    border-right: 1px solid rgba($color: #000000, $alpha: 0.1);
+  }
+
+  .header_page_content{
+    position: relative;
+    display: grid;
+    grid-template-rows: 80px auto;
+    overflow-y:scroll;
+  }
+  
+}
+
+
+
