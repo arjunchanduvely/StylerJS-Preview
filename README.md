@@ -2,7 +2,9 @@
 
 ## Git clone parent with submodules
 
-`$ git clone --recurse-submodules git@github.com:arjunchanduvely/StylerJS-Preview.git`
+```bash
+git clone --recurse-submodules git@github.com:arjunchanduvely/StylerJS-Preview.git
+```
 
 ## Getting Started
 
