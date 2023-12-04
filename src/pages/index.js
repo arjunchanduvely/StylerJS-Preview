@@ -14,15 +14,14 @@ const index=function(){
       <form action="#" className="input_preview_container">
         <InputTheme1
         label="Input Theme 1"
+        errorMessage="Invalid input"
         attrs={{
           name:"Fullname",
           type:"text",
           // value:this.state.Fullname,
           // onChange:this.form_change,
           // onInvalid:(e)=>{e.target.setCustomValidity("Enter proper fullname")},
-          pattern:"^[A-Za-z ]+$",
-          required:true,
-          autoComplete:"off"
+          type:"number",
         }}
         />
 
