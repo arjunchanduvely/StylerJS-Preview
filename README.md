@@ -9,12 +9,15 @@ or
 
 ```bash
 git clone git@github.com:arjunchanduvely/StylerJS-Preview.git
-git submodule update --init --recursive #from inside project directory
+```
+```bash
+# from inside project directory
+git submodule update --init --recursive
 ```
 
 ## Getting Started
 
-First copy and rename theme.sample.scss
+Copy and rename theme.sample.scss
 ```bash
 cp src/components/StylerJS/theme.sample.scss src/components/StylerJS/theme.scss
 ```
