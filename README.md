@@ -5,6 +5,15 @@
 ```bash
 git clone --recurse-submodules git@github.com:arjunchanduvely/StylerJS-Preview.git
 ```
+or
+
+```bash
+git clone git@github.com:arjunchanduvely/StylerJS-Preview.git
+```
+then
+```bash
+git submodule update --init --recursive
+```
 
 ## Getting Started
 
