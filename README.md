@@ -5,7 +5,7 @@
 ```bash
 git clone --recurse-submodules git@github.com:arjunchanduvely/StylerJS-Preview.git
 ```
-or
+#### or
 
 ```bash
 git clone git@github.com:arjunchanduvely/StylerJS-Preview.git
@@ -14,7 +14,14 @@ git clone git@github.com:arjunchanduvely/StylerJS-Preview.git
 # from inside project directory
 git submodule update --init --recursive
 ```
+#### Change submodule branch to 'main'
 
+```bash
+cd src/components/StylerJS/
+```
+```bash
+git switch main
+```
 ## Getting Started
 
 Copy and rename theme.sample.scss
