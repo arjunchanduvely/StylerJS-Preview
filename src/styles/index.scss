@@ -1,6 +1,9 @@
-index_page_container{
+.index_page_container{
     position: relative;
     overflow: hidden;
     width: 100%;
+    max-width: 500px;
     height: auto;
+    margin: auto;
+
 }

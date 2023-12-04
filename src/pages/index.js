@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "../styles/index.scss";
 import { InputTheme1, InputTheme2, InputTheme3, InputTheme4 } from "@/components/StylerJS/InputThemes/InputThemes";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGear, faWarning } from "@fortawesome/free-solid-svg-icons";
 
 const index=function(){
 
@@ -31,6 +33,7 @@ const index=function(){
 
         <InputTheme3
         label="Input Theme 3"
+        // errorMessage="Invalid input"
         errorMessage="Invalid input"
         attrs={{
           type:"number"
@@ -38,9 +41,10 @@ const index=function(){
         />
 
         <InputTheme4
-        label="InputTheme4"
+        label="Input Theme 4"
+        errorMessage="Invalid input"
         attrs={{
-          // value:"alsdkjf"
+          type:"number"
         }}
         />
       </form>

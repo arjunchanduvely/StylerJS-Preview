@@ -8,7 +8,11 @@ git clone --recurse-submodules git@github.com:arjunchanduvely/StylerJS-Preview.g
 
 ## Getting Started
 
-First, run the development server:
+First copy and rename theme.sample.scss
+```bash
+cp src/components/StylerJS/theme.sample.scss src/components/StylerJS/theme.scss
+```
+Run the development server:
 
 ```bash
 npm run dev
