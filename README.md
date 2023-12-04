@@ -14,6 +14,8 @@ git clone git@github.com:arjunchanduvely/StylerJS-Preview.git
 # from inside project directory
 git submodule update --init --recursive
 ```
+## Getting Started
+
 #### Change submodule branch to 'main'
 
 ```bash
@@ -22,19 +24,18 @@ cd src/components/StylerJS/
 ```bash
 git switch main
 ```
-## Getting Started
 
-Copy and rename theme.sample.scss
+#### Create theme.scss
 ```bash
 cp src/components/StylerJS/theme.sample.scss src/components/StylerJS/theme.scss
 ```
 
-Install node packages
+#### Install node packages
 ```bash
 npm i
 ```
 
-Run the development server:
+#### Run the development server
 
 ```bash
 npm run dev
