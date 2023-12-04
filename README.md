@@ -9,10 +9,7 @@ or
 
 ```bash
 git clone git@github.com:arjunchanduvely/StylerJS-Preview.git
-```
-then
-```bash
-git submodule update --init --recursive
+git submodule update --init --recursive #from inside project directory
 ```
 
 ## Getting Started
@@ -21,6 +18,12 @@ First copy and rename theme.sample.scss
 ```bash
 cp src/components/StylerJS/theme.sample.scss src/components/StylerJS/theme.scss
 ```
+
+Install node packages
+```bash
+npm i
+```
+
 Run the development server:
 
 ```bash
