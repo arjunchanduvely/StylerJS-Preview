@@ -1,3 +1,4 @@
 [submodule "src/components/StylerJS"]
 	path = src/components/StylerJS
 	url = git@github.com:arjunchanduvely/StylerJS.git
+	branch = main
