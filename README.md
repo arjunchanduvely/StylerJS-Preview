@@ -16,6 +16,11 @@ git submodule update --init --recursive
 ```
 ## Getting Started
 
+#### Create theme.scss
+```bash
+cp src/components/StylerJS/theme.sample.scss src/components/StylerJS/theme.scss
+```
+
 #### Change submodule branch to 'main'
 
 ```bash
@@ -23,11 +28,6 @@ cd src/components/StylerJS/
 ```
 ```bash
 git switch main
-```
-
-#### Create theme.scss
-```bash
-cp src/components/StylerJS/theme.sample.scss src/components/StylerJS/theme.scss
 ```
 
 #### Install node packages

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "../styles/index.scss";
 import { InputTheme1, InputTheme2, InputTheme3, InputTheme4 } from "@/components/StylerJS/InputThemes/InputThemes";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGear, faWarning } from "@fortawesome/free-solid-svg-icons";
+import Prism from 'prismjs';
+import 'prismjs/themes/prism.css';
 
 const index=function(){
 
@@ -12,18 +12,40 @@ const index=function(){
   return(
     <div className="index_page_container">
       <form action="#" className="input_preview_container">
-        <InputTheme1
-        label="Input Theme 1"
-        errorMessage="Invalid input"
-        attrs={{
-          name:"Fullname",
-          type:"text",
-          // value:this.state.Fullname,
-          // onChange:this.form_change,
-          // onInvalid:(e)=>{e.target.setCustomValidity("Enter proper fullname")},
-          type:"number",
-        }}
-        />
+        <div className="field_container">
+          <InputTheme1
+          label="Input Theme 1"
+          errorMessage="Invalid input"
+          attrs={{
+            name:"Fullname",
+            type:"text",
+            // value:this.state.Fullname,
+            // onChange:this.form_change,
+            // onInvalid:(e)=>{e.target.setCustomValidity("Enter proper fullname")},
+            type:"number",
+          }}
+          />
+        </div>
+        
+        <pre>
+          {/* <code className="language-javascript"> */}
+          <code className="language-javascript line-numbers">
+            {`
+              <InputTheme1
+              label="Input Theme 1"
+              errorMessage="Invalid input"
+              attrs={{
+                name:"Fullname",
+                type:"text",
+                value:this.state.Fullname,
+                onChange:this.form_change,
+                onInvalid:(e)=>{e.target.setCustomValidity("Enter proper fullname")},
+                type:"number",
+              }}
+              />
+            `}
+          </code>
+        </pre>
 
         <InputTheme2
         label="Input Theme 2"
