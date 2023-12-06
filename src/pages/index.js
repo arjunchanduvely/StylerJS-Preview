@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../styles/index.scss";
-import { InputTheme1, InputTheme2, InputTheme3, InputTheme4 } from "@/components/StylerJS/InputThemes/InputThemes";
+import { InputTheme1, InputTheme2, InputTheme3, InputTheme4, InputTheme5 } from "@/components/StylerJS/InputThemes/InputThemes";
 import Prism from 'prismjs';
 import 'prismjs/themes/prism.css';
 
@@ -63,6 +63,14 @@ const index=function(){
 
         <InputTheme4
         label="Input Theme 4"
+        errorMessage="Invalid input"
+        attrs={{
+          type:"number"
+        }}
+        />
+
+        <InputTheme5
+        label="Input Theme 5"
         errorMessage="Invalid input"
         attrs={{
           type:"number"
