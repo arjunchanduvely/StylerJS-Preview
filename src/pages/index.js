@@ -16,12 +16,12 @@ const index=function(){
           <InputTheme1
           label="Input Theme 1"
           errorMessage="Invalid input"
+          className="jango"
           attrs={{
             name:"Fullname",
             type:"text",
             // value:this.state.Fullname,
             // onChange:this.form_change,
-            // onInvalid:(e)=>{e.target.setCustomValidity("Enter proper fullname")},
             type:"number",
           }}
           />
@@ -34,12 +34,12 @@ const index=function(){
               <InputTheme1
               label="Input Theme 1"
               errorMessage="Invalid input"
+              className="Additional_ClassName" //Applied for parent container
               attrs={{
                 name:"Fullname",
                 type:"text",
                 value:this.state.Fullname,
                 onChange:this.form_change,
-                onInvalid:(e)=>{e.target.setCustomValidity("Enter proper fullname")},
                 type:"number",
               }}
               />
