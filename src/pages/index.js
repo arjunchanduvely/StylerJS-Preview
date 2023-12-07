@@ -11,7 +11,7 @@ const index=function(){
 
   return(
     <div className="index_page_container">
-      <form action="#" className="input_preview_container">
+      <form action="/action_page.php" className="input_preview_container">
         <div className="field_container">
           <InputTheme1
           label="Input Theme 1"
@@ -22,7 +22,8 @@ const index=function(){
             type:"text",
             // value:this.state.Fullname,
             // onChange:this.form_change,
-            type:"number",
+            // type:"email",
+            required:"true"
           }}
           />
         </div>
@@ -47,6 +48,7 @@ const index=function(){
           </code>
         </pre>
 
+        <input type="submit"></input>
         <InputTheme2
         label="Input Theme 2"
         
