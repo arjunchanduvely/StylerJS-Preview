@@ -8,10 +8,13 @@ const index=function(){
 
 
   // const [needs, set_needs] = useState("test");
-
+  
   return(
     <div className="index_page_container">
       <form action="/action_page.php" className="input_preview_container">
+     
+      <input type="submit"></input>
+        
         <div className="field_container">
           <InputTheme1
           label="Input Theme 1"
@@ -19,10 +22,11 @@ const index=function(){
           className="jango"
           attrs={{
             name:"Fullname",
-            type:"text",
+            // type:"text",
             // value:this.state.Fullname,
             // onChange:this.form_change,
-            // type:"email",
+            type:"email",
+            // type: "number",
             required:"true"
           }}
           />
@@ -48,7 +52,6 @@ const index=function(){
           </code>
         </pre>
 
-        <input type="submit"></input>
         <InputTheme2
         label="Input Theme 2"
         
